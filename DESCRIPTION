@@ -1,0 +1,20 @@
+Package: fNRBsuppRt
+Type: Package
+Title: fNRB Support Functions in R
+Version: 0.1.0
+Author: Ruan de Wet
+Maintainer: Ruan de Wet <ruan.de.wet@c4es.co.za>
+Description: Supporting functions for the accessible woody cover analysis component of an fNRB study. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports: 
+    raster, 
+    magrittr,
+    dplyr,
+    sf,
+    devtools,
+    usethis
+RoxygenNote: 7.0.2
